@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Built-By: jiyarza
+Bundle-ManifestVersion: 2
+Bundle-Version: 1.0.0
+Bundle-Vendor: open sistemas
+Bundle-Name: Java FX Picture Gallery
+Bundle-SymbolicName: com.opensistemas.nuxeo.picture.gallery;singleton:=true
+Bundle-Category: web
+Nuxeo-Require: org.nuxeo.ecm.platform.picture.dm,
+ org.nuxeo.ecm.webapp.ui,
+ org.nuxeo.ecm.platform.lang,
+ org.nuxeo.ecm.platform.lang.ext
+Nuxeo-Component: OSGI-INF/actions-contrib.xml
+ 
+

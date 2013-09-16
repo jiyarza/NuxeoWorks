@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical">
+	<item android:id="@+id/option_sync_selection" android:title="@string/sync_selection"
+		android:icon="@drawable/refresh_blue" />
+	<item android:id="@+id/option_upload_face" android:title="@string/upload_face"
+		android:icon="@drawable/facebook" />
+	<item android:id="@+id/option_upload_twit" android:title="@string/upload_twit"
+		android:icon="@drawable/twitter" />
+	<item android:id="@+id/option_refresh" android:title="@string/refresh"
+		android:icon="@drawable/refresh" />
+	<item android:id="@+id/option_settings" android:title="@string/settings"
+		android:icon="@drawable/settings" />
+	<item android:id="@+id/option_quit" android:title="@string/quit"
+		android:icon="@drawable/salir_light_20x20" />
+</menu>

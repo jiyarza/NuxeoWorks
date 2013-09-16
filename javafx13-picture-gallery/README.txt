@@ -1,0 +1,1 @@
+This is a Java FX 1.3 application. I won't work with the JavaFX 2.x runtime.

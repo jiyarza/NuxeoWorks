@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>    
+	<string name="undefined">Undefined</string>
+
+	<!--  Account preferences -->
+    <string name="account">Account data</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+	<string name="pref_username_summary">Enter your user name in the DoMa server</string>
+	<string name="pref_password_summary">Enter your DoMa account password</string>
+	<string name="pref_url_summary">Change the DoMa service URL</string>
+	<string name="pref_mac_summary">MAC address used for login</string>
+	
+	<string name="general_preferences">General preferences</string>
+	<string name="url">URL</string>
+
+	<string name="folder_settings">Folder Settings</string>
+	<string name="music_folder">Music Folder</string>
+	<string name="pictures_folder">Pictures Folder</string>
+	<string name="movies_folder">Movies Folder</string>
+	<string name="documents_folder">Documents Folder</string>
+	<string name="others_folder">Others Folder</string>
+	<string name="pref_view_mode_summary">Browse local files or also remote files</string>
+	<string name="pref_sync_option_summary">Precedence when solving a conflict</string>
+	<string name="pref_music_folder_summary">Change the Music root folder</string>
+	<string name="pref_pictures_folder_summary">Change the Pictures root folder</string>
+	<string name="pref_movies_folder_summary">Change the Movies root folder</string>
+	<string name="pref_documents_folder_summary">Change the Documents root folder</string>
+	<string name="pref_others_folder_summary">Change Others root folder</string>
+		
+	<string-array name="pref_music_folder_array">
+	    <item>Default</item>
+	    <item>MP3</item>
+	</string-array>
+	
+	<string-array name="pref_pictures_folder_array">
+	    <item>Default</item>
+	    <item>DCIM</item>
+	</string-array>
+	
+	<string-array name="pref_movies_folder_array">
+	    <item>Default</item>
+	    <item>DCIM</item>
+	</string-array>
+		
+	<string-array name="pref_documents_folder_array">
+	    <item>Download</item>
+	</string-array>
+	
+	<string-array name="pref_others_folder_array">
+	    <item>Download</item>
+	</string-array>
+	
+		
+	
+    <string name="app_name">DoMa SynC</string>
+    <string name="pictures_tab">Pics</string>
+    <string name="music_tab">Music</string>
+    <string name="movies_tab">Movies</string>
+    <string name="docs_tab">Docs</string>
+    <string name="other_tab">Other</string>    
+
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="settings">Settings</string>
+	<string name="lang">Language</string>
+	<string name="sync_option">Sync Options</string>
+	<string name="sync_folder">Sync Folder</string>
+	<string-array name="options_array">
+	    <item>Upload</item>
+	    <item>Download</item>
+	  <!--   <item>Ask</item>  -->
+	    <item>Do Nothing</item>
+	</string-array>
+	<string-array name="view_mode_options">
+	    <item>Local</item>
+	    <item>Local and Server</item>
+	</string-array>
+	<string name="view_mode">View mode</string>
+<!--  <string name="folders">Folders</string> -->
+<!--  <string name="foldersyncmenu">Folder Synchronization Menu</string> -->
+	<string name="mainmenu">DoMa Sync by Orange</string>
+	<string name="login_error">Login failed</string>
+	<string name="error_type">Some files can not be published! Unsupported document type</string>
+	<string name="close">Close</string>
+	<string name="alert_sync">Synchronize with the server?</string>
+	<string name="alert_upload">Synchronize selected files?</string>
+	<string name="alert_facebook">Synchronize and publish on Facebook all the selected files?</string>
+	<string name="alert_twitter">Synchronize and publish on Twitter all the selected files?</string>
+	<string name="alert_face_title">Publish and Upload Facebook</string>
+	<string name="alert_twit_title">Publish and Upload Twitter</string>
+	<string name="alert_sync_title">Synchronize</string>
+	<string name="alert_ask">What do you want to do with the file?</string>
+	<string name="alert_ask_title">File %s in conflict</string>
+	<string name="documents">Documents</string>
+	<string name="pictures">Pictures</string>
+	<string name="music">Music</string>
+	<string name="movies">Movies</string>
+	<string name="others">Other</string>
+	<string name="select_all">Select All</string>
+	<string name="contentnavigator_title">Select files</string>
+	<string name="sync_progress_title">Synchronizing ...</string>
+	<string name="download">Synchronizing ...</string>
+	<string name="sync_finished">100% Downloaded</string>
+	<string name="error">Error</string>
+	<string name="sync_error">Synchronization canceled!</string>
+	<string name="refresh">Refresh</string>
+	<string name="refreshing">Refreshing ...</string>
+	<string name="quit">Quit</string>
+	<string name="options_menu">Options Menu</string>
+	<string name="upload">Upload</string>
+	<string name="upload_face">Sync and Publish</string>
+	<string name="upload_twit">Sync and Publish</string>
+	<string name="main_page">Main Page</string>
+
+	<string name="login_failed">Username or password incorrect!</string>
+	<string name="login_facebook">Log in your Facebook!</string>
+	<string name="login">Login</string>
+	<string name="not_available_face">Publish movies on Facebook is not currently available!</string>
+	<string name="donothing">Do Nothing</string>
+	<string name="download_file">Download</string>
+	<string name="mac">MAC (only digits)</string>
+	<string name="change_folders">Change folders location</string>
+	<string name="sync_selection">Sync</string>
+	<string name="mac_error">MAC Address Error</string>
+	<string name="mac_failed">MAC Address not detected! Please, introduce it in Settings.</string>
+	<string name="twitter_error">Publish Error</string>
+	<string name="publish_failed">Publish on Twitter failed! Please, check your user name and password.</string>
+	<string name="twitter_ok">Publish on Twitter</string>
+	<string name="facebook_ok">Publish on Facebook</string>
+	<string name="publish_ok">File/s published successfully!</string>
+	<string name="connection_error">Connection Error</string>
+	<string name="connection_not_enabled">No Internet access!</string>
+	<string name="no_access_host">The host is unreachable!</string>
+	<string name="global_state_updater_message">Updating database ...</string>    
+	<string name="loading_message">Loading ...</string>
+</resources>

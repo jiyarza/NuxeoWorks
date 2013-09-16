@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="http://<host>/nuxeo/javafx/" href="PictureGallery_browser.jnlp">
+    <information>
+        <title>PictureGallery</title>
+        <vendor>open sistemas</vendor>
+        <homepage href="http://<host>/nuxeo/javafx/"/>
+        <description>PictureGallery</description>
+        <icon kind="splash" href="http://dl.javafx.com/1.3/splash.png"/>
+        <offline-allowed/>
+    </information>
+    <security>
+        <all-permissions/>
+    </security>
+    <resources>
+        <j2se version="1.5+"/>
+        <extension name="JavaFX Runtime" href="http://dl.javafx.com/1.3/javafx-rt.jnlp"/>
+        <jar href="PictureGallery.jar" main="true"/>
+    </resources>
+    <applet-desc name="PictureGallery" main-class="com.sun.javafx.runtime.adapter.Applet" progress-class="com.javafx.progressbar.ProgressManager" width="800" height="600">
+        <param name="MainJavaFXScript" value="picturegallery.Main"/>
+    </applet-desc>
+    <update check="always"/>
+</jnlp>

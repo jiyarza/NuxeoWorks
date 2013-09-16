@@ -1,0 +1,6 @@
+Edit these files:
+
+src/main/resources/web/nuxeo.war/incl/picture_gallery.xhtml
+src/main/resources/web/nuxeo.war/javafx/PictureGallery_browser.jnlp
+
+Look for urls containing the text "<host>", and set the correct URLs.

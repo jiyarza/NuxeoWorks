@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+        xmlns:android="http://schemas.android.com/apk/res/android">
+               
+    <PreferenceCategory
+            android:title="@string/account">
+
+        <EditTextPreference
+                android:key="username"
+                android:title="@string/username"
+                android:summary="@string/pref_username_summary"
+                android:dialogTitle="@string/username" />
+
+        <EditTextPreference
+                android:key="password"
+                android:title="@string/password"
+                android:summary="@string/pref_password_summary"
+                android:dialogTitle="@string/password"
+                android:password="true" />
+                
+        <EditTextPreference
+                android:key="url"
+                android:title="@string/url"
+                android:summary="@string/pref_url_summary"
+                android:dialogTitle="@string/url"
+                android:defaultValue="http://doma.ilabspain.com/" />
+                
+        <EditTextPreference
+                android:key="mac"
+                android:title="@string/mac"
+                android:summary="@string/pref_mac_summary"
+                android:dialogTitle="@string/mac" />     
+
+   </PreferenceCategory>                
+    
+   <PreferenceCategory android:title="@string/general_preferences">
+                            
+        <ListPreference
+                android:key="sync_option"
+                android:title="@string/sync_option"
+                android:summary="@string/pref_sync_option_summary"
+                android:entries="@array/options_array"
+                android:entryValues="@array/options_array"
+                android:dialogTitle="@string/sync_option"
+                android:defaultValue="Download"/>
+
+        <ListPreference
+                android:key="view_mode"
+                android:title="@string/view_mode"
+                android:summary="@string/pref_view_mode_summary"
+                android:entries="@array/view_mode_options"
+                android:entryValues="@array/view_mode_options"
+                android:dialogTitle="@string/view_mode"
+                android:defaultValue="Local" />
+                
+    </PreferenceCategory>
+    
+   <PreferenceCategory android:title="@string/folder_settings">
+                            
+        <ListPreference
+                android:key="music_folder"
+                android:title="@string/music_folder"
+                android:summary="@string/pref_music_folder_summary"
+                android:entries="@array/pref_music_folder_array"
+                android:entryValues="@array/pref_music_folder_array"
+                android:dialogTitle="@string/music_folder"
+                android:defaultValue="MP3" />
+                                
+        <ListPreference
+                android:key="pictures_folder"
+                android:title="@string/pictures_folder"
+                android:summary="@string/pref_pictures_folder_summary"
+                android:entries="@array/pref_pictures_folder_array"
+                android:entryValues="@array/pref_pictures_folder_array"
+                android:dialogTitle="@string/pictures_folder"
+                android:defaultValue="DCIM" />                
+                
+        <ListPreference
+                android:key="movies_folder"
+                android:title="@string/movies_folder"
+                android:summary="@string/pref_movies_folder_summary"
+                android:entries="@array/pref_movies_folder_array"
+                android:entryValues="@array/pref_movies_folder_array"
+                android:dialogTitle="@string/movies_folder"
+                android:defaultValue="DCIM" />
+                
+		<ListPreference
+                android:key="documents_folder"
+                android:title="@string/documents_folder"
+                android:summary="@string/pref_documents_folder_summary"
+                android:entries="@array/pref_documents_folder_array"
+                android:entryValues="@array/pref_documents_folder_array"
+                android:dialogTitle="@string/documents_folder" 
+                android:defaultValue="Documents" />
+
+		<ListPreference
+                android:key="others_folder"
+                android:title="@string/others_folder"
+                android:summary="@string/pref_others_folder_summary"
+                android:entries="@array/pref_others_folder_array"
+                android:entryValues="@array/pref_others_folder_array"
+                android:dialogTitle="@string/others_folder"
+                android:defaultValue="download" />
+                
+    </PreferenceCategory>    
+    
+</PreferenceScreen>
